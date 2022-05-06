@@ -4,8 +4,6 @@
 - :octocat:
 - 👨‍💻 All of my projects are available at [https://chinjn.github.io/](https://chinjn.github.io/)
 
-- 📫 How to reach me **JaniceChin0420@gmail.com**
-
 - 📄 Know about my experiences [www.linkedin.com/in/jie-nee-chin-876576221](www.linkedin.com/in/jie-nee-chin-876576221)
 
 <h3 align="left">Languages and Tools:</h3>
