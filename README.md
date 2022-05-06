@@ -1,10 +1,11 @@
-<h1 align="center">Hi 👋, I'm Chin Jie Nee</h1>
-<h3 align="center">A undergraduate student from Sunway University currently taking Bachelor of Information System in Data Analytics. Passionate in exploring and analysing data, also curious in frontend development.</h3>
+<h1 align="center">Hi 👋, I'm Janice Chin Jie Nee</h1>
+<h3 align="center">Passionate in exploring and analysing data, also curious in frontend development.</h3>
 
-- :octocat:
-- 👨‍💻 All of my projects are available at [https://chinjn.github.io/](https://chinjn.github.io/)
-
-- 📄 Know about my experiences [www.linkedin.com/in/jie-nee-chin-876576221](www.linkedin.com/in/jie-nee-chin-876576221)
+- :octocat: An undergraduate student from Sunway University
+- 📖 Bachelor of Information System in Data Analytics
+- 👨‍💻 All of my projects are available at [Portfolio](https://chinjn.github.io/)
+- 🔭 I’m currently working on [An E-Commerce Startup - HYPOLLECT](https://www.instagram.com/hypollect)
+- 📄 Know about my experiences [Janice's Linkedin](www.linkedin.com/in/jie-nee-chin-876576221)
 
 <h3 align="left">Languages and Tools:</h3>
 <h4 align="left">Programming Language</h4>
