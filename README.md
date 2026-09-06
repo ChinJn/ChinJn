@@ -1,51 +1,64 @@
-<h1 align="center">Hi 👋, I'm Janice Chin Jie Nee</h1>
-<h3 align="center">Passionate in exploring and analysing data, also curious in frontend development.</h3>
+# Janice Chin · ChinJn
 
-- :octocat: An undergraduate student from Sunway University
-- 📖 Bachelor of Information System in Data Analytics
-- 👨‍💻 All of my projects are available at [Portfolio](https://chinjn.github.io/)
-- 🔭 I’m currently working on [An E-Commerce Startup - HYPOLLECT](https://www.instagram.com/hypollect)
-- 📄 Know about my experiences [Janice's Linkedin](www.linkedin.com/in/jie-nee-chin-876576221)
+**Data Risk & Automation Engineer** — I build internal tools that replace manual data processes.
 
-<h3 align="left">Languages and Tools:</h3>
-<h4 align="left">Programming Language</h4>
-<p align="left"> 
-    
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
+Working on the data side of a forex/CFD brokerage: MT4/MT5 trade data, StarRocks, risk reporting and
+data quality. I build local-first tools in Python with local LLMs (Ollama), and ship them as something
+a non-technical teammate can click — a bot, a web form, or an installable desktop app.
 
+**Principle:** deterministic code owns the rules and the output. AI summarizes, extracts and drafts.
 
-</p>
+---
 
-<h4 align="left">Frontend Developement</h4>
-<p align="left"> 
-    
-  <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> 
-  <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
+## Projects
 
-</p>
+**[Data Risk Agent](https://github.com/ChinJn/Data-Team-Agent)** — Lark bot answering the data team's
+table-location questions with the exact StarRocks table, a runnable SQL query, and validation steps.
+Grounded in a curated data catalog rather than prose RAG. Local Ollama/Qwen; generate-only SQL, no DB
+credentials in the bot. `Python · Lark API · Ollama · RAG · StarRocks`
 
-<h4 align="left">Database</h4>
-<p align="left"> 
-   <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> 
+**VSR Automation Tool** — Generates the team's Violation Summary Report from a web form. Replaces a
+manual DBeaver → copy-paste → Excel-formula workflow; output is structurally identical to the existing
+report. *(internal)* `Python · StarRocks · openpyxl · PyInstaller`
 
-</p>
+**[Financial News Copilot](https://github.com/ChinJn/News-Bot-Tg)** — Bilingual (EN/繁中) Telegram bot
+that collects financial news, summarizes each item with a local Qwen model, and stores it in
+PostgreSQL. Fully local inference. `Python · Telegram Bot API · Ollama · PostgreSQL`
 
-<h4 align="left">Software</h4>
-<p align="left"> 
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> 
-  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> 
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
-  <a href="https://www.canva.com" target="_blank"> <img src="https://cdn-images-1.medium.com/max/1200/1*A6kkoOVJVpXPWewg8axc5w.png"
-            alt="Canva" width="40" height="40" /> </a>
-</p>
+**[AI Receipt Tracker](https://github.com/ChinJn/Recipt-Tracker-Bot-TG)** — Telegram bot that turns
+receipt photos into structured rows in Google Sheets. Gemini vision extraction, dual-hash duplicate
+detection, human-in-the-loop amount correction. `n8n · Gemini · Telegram Bot API · Google Sheets`
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/jie nee chin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jie nee chin" height="30" width="40" /></a>
-</p>
+**[Trading AI](https://github.com/ChinJn/Combined-Stratergy)** — Research platform for BTCUSD/XAUUSD on
+MT5. Data collection, features and risk limits are deterministic and tested; a hard-coded risk engine
+has final authority over any model output. Paired with a
+[Wyckoff accumulation detector](https://github.com/ChinJn/Wyckoff-Stratergy) in Pine Script.
+`Python · MT5 · PostgreSQL · Binance/Bybit APIs`
 
+**[MusicTag](https://github.com/ChinJn/MusicTag-Mac)** — Bulk music-metadata editor for macOS with no
+file-count limit. 9 audio formats via TagLib, artwork management, CSV round-trip, full undo/redo.
+Ships as a double-click `.app`. `Python · PySide6 · pytaglib`
+
+**[Guitar → Score](https://github.com/ChinJn/music-score)** — Audio in, engraved notation and tablature
+out. Basic Pitch → melody extraction → tempo detection → quantize → string/fret assignment by dynamic
+programming → MusicXML. `Python · Basic Pitch · librosa · music21 · Verovio`
+
+---
+
+## Stack
+
+**Data** — SQL (StarRocks, PostgreSQL, Oracle) · MT4/MT5 · FXBO · data quality & reconciliation · openpyxl
+
+**Code** — Python · TypeScript/JavaScript · Java · PySide6/Qt · FastAPI · React
+
+**AI** — Ollama (local Qwen) · RAG over curated catalogs · Gemini vision · prompt & eval design
+
+**Automation** — n8n · Telegram / Lark Bot APIs · Playwright · launchd
+
+**Packaging** — PyInstaller · macOS `.app`
+
+---
+
+**BSc Data Analytics**, Sunway University
+
+[LinkedIn](https://www.linkedin.com/in/janice-chin-jie-nee/) · janicechin0420@gmail.com
