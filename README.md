@@ -1,6 +1,6 @@
 # Janice Chin · ChinJn
 
-**Data Risk & Automation Engineer** — I build internal tools that replace manual data processes.
+**Data Risk & Automation Risk Analyst** — I build internal tools that replace manual data processes.
 
 Working on the data side of a forex/CFD brokerage: MT4/MT5 trade data, StarRocks, risk reporting and
 data quality. I build local-first tools in Python with local LLMs (Ollama), and ship them as something
